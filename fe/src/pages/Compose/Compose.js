@@ -105,7 +105,7 @@ const Compose = () => {
         `${process.env.REACT_APP_API_SERVICE_URL}/tweet`,
         config
       );
-      // const response = await fetch(`tweet`, config);
+
       //const json = await response.json()
       if (response.ok) {
         //return json
@@ -210,4 +210,8 @@ const Compose = () => {
   );
 };
 
+<<<<<<< HEAD
 export default Compose;
+=======
+export default Compose
+>>>>>>> 068f9e495fe348406ef156d05832e5ec0460f7ee
