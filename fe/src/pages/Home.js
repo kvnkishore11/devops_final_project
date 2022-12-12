@@ -18,7 +18,7 @@ function Home(props) {
 
   return (
     <div className={classes.root}>
-      <h1>Kishore Devops Final Project</h1>
+      <h1>Our Landing page</h1>
     </div>
   );
 }
